@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            box-sizing: inherit;
+            font-size: 1.4rem;
+        }
+        
+        header {
+            background-color: #FCB741;
+            height: 100px;
+        }
+        
+        .center {
+            display: flex;
+            height: 400px;
+        }
+        
+        .side {
+            width: 30%;
+            background-color: #8BC360;
+        }
+        
+        .content {
+            width: 70%;
+            background-color: #F1B1EE;
+        }
+        
+        footer {
+            background-color: #F1B1EE;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>HEADER</header>
+    <div class="center">
+        <div class="side">SIDE</div>
+        <div class="content">CONTENT</div>
+    </div>
+    <footer>FOOTER</footer>
+</body>
+
+</html>

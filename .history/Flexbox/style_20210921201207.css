@@ -1,0 +1,33 @@
+* {
+    box-sizing: inherit;
+    font-size: 1.5rem;
+}
+
+header {
+    font-weight: bold;
+    background-color: #FCB741;
+    height: 50px;
+}
+
+.center {
+    display: flex;
+    height: 500px;
+}
+
+.side {
+    font-weight: bold;
+    width: 30%;
+    background-color: #8BC360;
+}
+
+.content {
+    font-weight: bold;
+    width: 70%;
+    background-color: #F1B1EE;
+}
+
+footer {
+    font-weight: bold;
+    background-color: #FCB741;
+    height: 50px;
+}

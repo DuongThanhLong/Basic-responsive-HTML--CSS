@@ -1,0 +1,41 @@
+* {
+    box-sizing: inherit;
+    font-size: 1.4rem;
+    padding: 0;
+    align-items: left;
+}
+
+header {
+    font-weight: bold;
+    background-color: #FCB741;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.center {
+    display: flex;
+    height: 500px;
+}
+
+.side {
+    margin-left: 100px;
+    font-weight: bold;
+    width: 30%;
+    background-color: #8BC360;
+}
+
+.content {
+    margin-right: 100px;
+    font-weight: bold;
+    width: 70%;
+    background-color: #F1B1EE;
+}
+
+footer {
+    font-weight: bold;
+    background-color: #FCB741;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
